@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px 0; */
+
+
+}
+
+.header_top h1 {
+    color: #0088A2;
+
+    font-size: 60px;
+    margin-left: 100px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+}
+
+
+
+.menu_without_burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+}
+
+.menu_without_burger li {
+    flex: 0 1 20%;
+    text-align: center;
+    list-style: none;
+}
+
+.menu_item1 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 42px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.6s;
+    background-color: #808080;
+}
+
+.menu_item1:hover {
+    background-color: #0088A2;
+
+}
+
+.question_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.question {
+    flex: 0 1 30%;
+    position: relative;
+}
+
+.question img {
+    width: 100%;
+}
+
+.question p {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.main_app {
+
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+
+
+.img1 {
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.main_app h2 {
+    display: flex;
+    color: #0088A2;
+    font-weight: 400;
+    font-size: 96px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+
+}
+
+
+.pc {
+    /* position: relative; */
+    width: 90%;
+}
+
+/* .button5 {
+    position: relative;
+    top: 45%;
+    left: 45%;
+} */
+
+/* .button {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-top: 100px;
+} */
+
+
+
+.pics {
+    width: 80%;
+    margin: 8% auto;
+    display: flex;
+    position: relative;
+    height: 70vh;
+}
+
+
+.pics img {
+    position: absolute;
+    top: 0;
+
+
+
+}
+
+.pics img:nth-child(1) {
+    left: 0%;
+
+
+}
+
+.pics img:nth-child(2) {
+    left: 18%;
+
+}
+
+.pics img:nth-child(3) {
+    left: 36%;
+}
+
+.pics img:nth-child(4) {
+    left: 54%;
+}
+
+.pics img:nth-child(5) {
+    left: 72%;
+
+}
+
+.pics img:nth-child(even) {
+    top: 35px
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.project h3 {
+    display: flex;
+    color: #0088A2;
+    font-weight: 400;
+    font-size: 96px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+}
+
+.project p {
+    display: flex;
+    color: #707070;
+    margin: 50px 100px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 48px;
+}
+
+
+
+.code h4 {
+    display: flex;
+    color: #0088A2;
+    font-weight: 400;
+    font-size: 96px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.codepics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.curs {
+    display: flex;
+    color: #707070;
+    margin: 50px 100px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+}
+
+.footer_some {
+    background-color: #0088A2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer_some h5 {
+
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 96px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.general {
+    display: flex;
+    justify-content: space-around;
+}
+
+.general p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer_line {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer_column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.footer_column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.footer_column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+
+.onet {
+    font-size: 50px;
+}
+
+.twot {
+    font-size: 50px;
+}
+
+.threet {
+    font-size: 50px;
+}
+
+nav {
+    position: relative;
+    margin-top: 74px;
+}
+
+.menu_without_burger {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #0088A2;
+}
+
+#toggle {
+    /* прозрачность */
+    opacity: 0;
+
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+/* добавление бургера */
+.btn span,
+.btn span::before,
+.btn span::after {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: black;
+
+    transition: 0.5s;
+}
+
+.btn span::before {
+    content: '';
+    top: -100px;
+
+}
+
+.btn span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(69, 82, 200);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.572);
+    transition: 0.5s;
+
+}
+
+.menu_item {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu_item:hover {
+    background-color: aliceblue;
+}
+
+#toggle:checked~.btn span {
+    transform: rotate(45deg);
+}
+
+
+#toggle:checked~.btn span::before {
+    transform: rotate(-90deg);
+    top: 0;
+
+}
+
+
+#toggle:checked~.btn span::after {
+    transform: rotate(0deg);
+    top: 0;
+}
+
+#toggle:checked~.menu {
+    left: 0;
+    visibility: visible;
+}
